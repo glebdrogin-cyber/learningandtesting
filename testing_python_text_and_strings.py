@@ -64,3 +64,11 @@
 #print(text.capitalize())  # Gibt den Text mit großem Anfangsbuchstaben aus
 
 ############################
+
+x = 1
+for x in range(1, 11):
+    if x > 5:
+        print(x, "ist größer als 5")
+    else:
+        print(x, "ist kleiner oder gleich 5")
+
