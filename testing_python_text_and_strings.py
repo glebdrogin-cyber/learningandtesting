@@ -86,3 +86,20 @@
 
 ############################
 
+#boolean
+
+#a = 100
+#if a > 10 and a < 1000:
+#    print("a ist größer als 10 und kleiner als 1000")
+
+#b = 2
+#if b == 2 or b == 2:
+#    print ("b ist entweder 2 oder 4")
+
+#c = 250
+#if c > 2 and not c == 251:
+#    print("c ist größer als 2 und nicht gleich 251")
+
+############################
+
+
