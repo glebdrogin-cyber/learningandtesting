@@ -102,4 +102,13 @@
 
 ############################
 
+text = "Das ist ein Text."
+if "z" in text:
+    print("Der Text enthält ein 'z'.")
+else:
+    print("Der Text enthält kein 'z'.")
 
+if "D" in text:                     # Case sensitive Suche!
+    print("Der Text enthält ein 'D'.")
+else:
+    print("Der Text enthält kein 'D'.")
