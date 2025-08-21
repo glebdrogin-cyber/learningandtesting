@@ -65,10 +65,24 @@
 
 ############################
 
-x = 1
-for x in range(1, 11):
-    if x > 5:
-        print(x, "ist größer als 5")
-    else:
-        print(x, "ist kleiner oder gleich 5")
+#x = 1
+#for x in range(1, 11):
+#    if x > 5:
+#        print(x, "ist größer als 5")
+#    else:
+#        print(x, "ist kleiner oder gleich 5")
+
+#############################
+
+#"A" < "a"
+# "A" < "B"  # True
+# "a" < "b"  # True
+# "A" < "a"  # True, da Großbuchstaben vor Kleinbuch
+# "a" < "A"  # False, da Kleinbuchstaben nach Großbuchstaben
+
+#cha = ["a", "B", "A","z"]
+#cha.sort()  # Sortiert die Liste cha
+#print(cha)  # Gibt die sortierte Liste aus
+
+############################
 
