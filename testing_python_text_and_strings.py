@@ -41,7 +41,7 @@
 
 ############################
 
-text = "Hallo zusammen!"
+#text = "Hallo zusammen!"
 #for c in text:
 #    print(c)
 
@@ -57,6 +57,10 @@ text = "Hallo zusammen!"
 
 #liste3 = [1, "a", 2.5, True, None] #Listen können auch gemischt sein, wie hier zu sehen ist.
 
-############################
 
-print(text.upper())  # Gibt den Text in Großbuchstaben aus
+
+#print(text.upper())  # Gibt den Text in Großbuchstaben aus
+#print(text.lower())  # Gibt den Text in Kleinbuchstaben aus
+#print(text.capitalize())  # Gibt den Text mit großem Anfangsbuchstaben aus
+
+############################
