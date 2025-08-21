@@ -19,7 +19,14 @@
 #a = input("Bitte etwas eingeben:")
 #print(a)
 
-try:
-    a = int(input("Eine zahl eingeben:"))
-except ValueError:
-    print("Das ist keine Zahl!")
+#try:
+#    a = int(input("Eine zahl eingeben:"))
+#except ValueError:
+#    print("Das ist keine Zahl!")
+
+zahlen = [1, 2, 3, 4, 5, 1, 1, 1]
+for zahl in zahlen:
+    print(zahl)
+print("\n")
+print(zahlen[0:2])
+print(zahlen[4])
