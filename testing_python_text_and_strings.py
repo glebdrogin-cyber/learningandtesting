@@ -41,19 +41,22 @@
 
 ############################
 
-#text = "Hallo zusammen!"
+text = "Hallo zusammen!"
 #for c in text:
 #    print(c)
 
 ############################
 
-liste = [1, 2, 3, 4, 5, 1, 1, 1]
-print(len(liste))  # Gibt die Länge der Liste aus
+#liste = [1, 2, 3, 4, 5, 1, 1, 1]
+#print(len(liste))  # Gibt die Länge der Liste aus
 
-liste2 = [2, "a", liste, 2+3]
-print(liste2)  # Gibt die Liste mit verschiedenen Datentypen aus
-liste2.append("etwas der Liste hinzufügen")
-print (liste2) # Fügt einen neuen Eintrag zur Liste hinzu
-#Listen können auch gemischt sein, wie hier zu sehen ist:
-#liste3 = [1, "a", 2.5, True, None]
+#liste2 = [2, "a", liste, 2+3]
+#print(liste2)  # Gibt die Liste mit verschiedenen Datentypen aus
+#liste2.append("etwas der Liste hinzufügen")
+#print (liste2) # Fügt einen neuen Eintrag zur Liste hinzu
 
+#liste3 = [1, "a", 2.5, True, None] #Listen können auch gemischt sein, wie hier zu sehen ist.
+
+############################
+
+print(text.upper())  # Gibt den Text in Großbuchstaben aus
