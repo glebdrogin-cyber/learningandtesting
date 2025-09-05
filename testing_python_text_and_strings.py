@@ -115,7 +115,44 @@
 
 ##############################
 
-def quadrat(x):
-    return x * x
-quadrat(4.1)
-print(quadrat(4.1)) # Gibt 16.81 zurück 
+#def quadrat(x):
+#   return x * x
+#quadrat(4.1)
+#print(quadrat(4.1)) # Gibt 16.81 zurück
+
+
+class person:
+
+    pjahre = 0
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.alter = age
+        person.pjahre = person.pjahre + age
+    
+
+    def greet(self):
+        print("Hallo, mein Name ist", self.name, "und ich bin", self.alter, "Jahre alt.")
+        print("Insgesamt sind wir", person.pjahre, "Jahre alt.")        
+
+pgleb = person("Gleb", 37)
+print(pgleb)   
+pgleb.greet()
+
+ptriin = person("Triin", 35)
+print(ptriin)   
+ptriin.greet()
+
+class Kind(person):
+    def __init__(self, name, age):
+        if age > 12:
+            raise ValueError("Ein Kind muss 12 Jahre oder jünger sein.")
+        
+        super().__init__(name, age)
+
+            
+
+peterle = Kind("Peter", 3)
+peterle.greet()
+
+
