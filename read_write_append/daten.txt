@@ -1,0 +1,9 @@
+Dies ist ein Beispieltext für die Datendatei.
+Hier können verschiedene Informationen gespeichert werden.
+Datum: 2025-11-19
+Status: Aktiv
+
+Weitere Beispieldaten:
+- Zeile 1
+- Zeile 2
+- Zeile 3
