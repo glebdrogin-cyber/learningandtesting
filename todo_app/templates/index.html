@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do Liste</title>
+</head>
+<body>
+    <h1>Meine To-Do-Liste</h1>
+    {% if todos %}
+        <ul>
+        {% for todo in todos %}
+            <li>{{ todo }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Keine Aufgaben vorhanden.</p>
+    {% endif %}
+    <a href="{{ url_for('add') }}">Neue Aufgabe hinzufügen</a>
+</body>
+</html>

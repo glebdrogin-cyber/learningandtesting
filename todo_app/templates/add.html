@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Neue Aufgabe</title>
+</head>
+<body>
+    <h1>Neue Aufgabe hinzufügen</h1>
+    <form method="POST" action="{{ url_for('add') }}">
+        <label for="task">Aufgabe:</label>
+        <input type="text" name="task" id="task" required>
+        <button type="submit">Hinzufügen</button>
+    </form>
+    <a href="{{ url_for('index') }}">Zurück zur Liste</a>
+</body>
+</html>
