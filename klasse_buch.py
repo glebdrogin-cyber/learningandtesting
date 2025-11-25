@@ -30,7 +30,7 @@ buch1.ausleihen()       # sollte verfügbar -> ausgeliehen
 buch1.ausleihen()       # nochmal ausleihen -> nicht verfügbar
 buch1.zurueckgeben()    # wieder verfügbar
 
-print()  # Leerzeile für bessere Lesbarkeit
+print()
 
 buch2.ausleihen()
 buch2.zurueckgeben()
