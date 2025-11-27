@@ -1,0 +1,20 @@
+2025-11-27 11:38:59,632 - meine_anwendung - INFO - Anwendung gestartet.
+2025-11-27 11:38:59,634 - meine_anwendung - DEBUG - Starte Division: 10 / 2
+2025-11-27 11:38:59,634 - meine_anwendung - INFO - Division erfolgreich: 10 / 2 = 5.0
+2025-11-27 11:38:59,634 - meine_anwendung - DEBUG - Starte Division: 5 / 0
+2025-11-27 11:38:59,634 - meine_anwendung - ERROR - Fehler: Division durch Null!
+Traceback (most recent call last):
+  File "/Users/glebdrogin/Documents/ChapterNextTesting/learningandtesting/logging/logging_in_python.py", line 29, in division
+    ergebnis = a / b
+               ~~^~~
+ZeroDivisionError: division by zero
+2025-11-27 11:38:59,680 - meine_anwendung - DEBUG - Starte Division: 8 / 4
+2025-11-27 11:38:59,680 - meine_anwendung - INFO - Division erfolgreich: 8 / 4 = 2.0
+2025-11-27 11:38:59,680 - meine_anwendung - DEBUG - Starte Division: a / 3
+2025-11-27 11:38:59,680 - meine_anwendung - CRITICAL - Unerwarteter Fehler bei der Division: unsupported operand type(s) for /: 'str' and 'int'
+Traceback (most recent call last):
+  File "/Users/glebdrogin/Documents/ChapterNextTesting/learningandtesting/logging/logging_in_python.py", line 29, in division
+    ergebnis = a / b
+               ~~^~~
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+2025-11-27 11:38:59,681 - meine_anwendung - INFO - Anwendung beendet.
