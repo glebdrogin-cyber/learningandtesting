@@ -6,10 +6,8 @@ import unittest
 
 
 class TestCalculator(unittest.TestCase):
-    """Unit-Tests für die Calculator-Klasse."""
 
     def setUp(self):
-        """Erstellt ein neues Calculator-Objekt für jeden Test."""
         self.calc = Calculator()
 
     def test_add(self):
